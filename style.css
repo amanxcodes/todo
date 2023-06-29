@@ -1,12 +1,41 @@
-body{
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(to right,grey ,rgb(243, 216, 216));
+body {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to right, grey, rgb(243, 216, 216));
 }
-*{
-    padding: 5px;
+* {
+  padding: 5px;
+}
+
+#button {
+  color: antiquewhite;
+  background-color: #a52a2a;
+  margin-top: 3%;
+  border: 2px rgb(97, 51, 51) solid;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#button:hover {
+  color: rgb(242, 242, 242);
+  background-color: #820d0d;
+  transform: scale(1.2);
+}
+
+#input {
+  background-color: #f1faee;
+  border-bottom: solid 2px #e63946;
+  border-top: solid 2px #a31a25;
+  box-shadow: 3px 3px #e1dede;
+  color: #2b2d42;
+}
+
+#heading {
+  text-transform: uppercase;
+  border-bottom: #4c4c4c 2px solid;
+  color: #2b2d42;
 }
